@@ -1,8 +1,8 @@
-import { Scene, WebGLRenderer, MeshBasicMaterial, Vector2, Mesh, PerspectiveCamera, sRGBEncoding } from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
-import { SAH } from 'three-mesh-bvh';
-import { GenerateMeshBVHWorker } from 'three-mesh-bvh/src/workers/GenerateMeshBVHWorker.js';
+import { Scene, WebGLRenderer, MeshBasicMaterial, Vector2, Mesh, PerspectiveCamera, sRGBEncoding } from 'https://cdn.skypack.dev/three';
+import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
+import { FullScreenQuad } from 'https://cdn.skypack.dev/three/examples/jsm/postprocessing/Pass.js';
+import { SAH } from 'https://cdn.skypack.dev/three-mesh-bvh';
+import { GenerateMeshBVHWorker } from 'https://cdn.skypack.dev/three-mesh-bvh/src/workers/GenerateMeshBVHWorker.js';
 import { PathTracingRenderer } from '../core/PathTracingRenderer.js';
 import { mergeMeshes } from '../utils/GeometryPreparationUtils.js';
 import { PhysicalPathTracingMaterial } from '../materials/PhysicalPathTracingMaterial.js';
