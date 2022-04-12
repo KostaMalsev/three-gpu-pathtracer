@@ -1,5 +1,5 @@
-import { SAH } from 'three-mesh-bvh';
-import { GenerateMeshBVHWorker } from 'three-mesh-bvh/src/workers/GenerateMeshBVHWorker.js';
+import { SAH } from 'https://cdn.skypack.dev/three-mesh-bvh';
+import { GenerateMeshBVHWorker } from 'https://cdn.skypack.dev/three-mesh-bvh/src/workers/GenerateMeshBVHWorker.js';
 import { mergeMeshes } from '../utils/GeometryPreparationUtils.js';
 
 export class PathTracingSceneGenerator {
