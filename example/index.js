@@ -18,15 +18,15 @@ import {
 	PlaneBufferGeometry,
 	Group,
 	MeshPhysicalMaterial,
-} from 'three';
-import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
-import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { LDrawLoader } from 'three/examples/jsm/loaders/LDrawLoader.js';
-import { LDrawUtils } from 'three/examples/jsm/utils/LDrawUtils.js';
-import { GUI } from 'three/examples/jsm/libs/lil-gui.module.min.js';
+} from 'https://cdn.skypack.dev/three';
+import { MeshoptDecoder } from 'https://cdn.skypack.dev/three/examples/jsm/libs/meshopt_decoder.module.js';
+import { RGBELoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/RGBELoader.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js';
+import { LDrawLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/LDrawLoader.js';
+import { LDrawUtils } from 'https://cdn.skypack.dev/three/examples/jsm/utils/LDrawUtils.js';
+import { GUI } from 'https://cdn.skypack.dev/three/examples/jsm/libs/lil-gui.module.min.js';
 import { PathTracingViewer } from '../src/viewers/PathTracingViewer.js';
-import Stats from 'three/examples/jsm/libs/stats.module.js';
+import Stats from 'https://cdn.skypack.dev/three/examples/jsm/libs/stats.module.js';
 
 const creditEl = document.getElementById( 'credits' );
 const loadingEl = document.getElementById( 'loading' );
