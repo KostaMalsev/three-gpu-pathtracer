@@ -1,4 +1,4 @@
-import { Color, DataTexture, FloatType, RGFormat, LinearFilter } from 'three';
+import { Color, DataTexture, FloatType, RGFormat, LinearFilter } from 'https://cdn.skypack.dev/three';
 
 function RGBEToLinear( r, g, b, e, target ) {
 
