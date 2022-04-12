@@ -1,15 +1,15 @@
 import * as THREE from 'https://cdn.skypack.dev/three';
-import { FullScreenQuad } from './three/examples/jsm/postprocessing/Pass.js';
-import { GLTFLoader } from './three/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from './three/examples/jsm/controls/OrbitControls.js';
+import { FullScreenQuad } from 'https://cdn.skypack.dev/three/examples/jsm/postprocessing/Pass.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
 import { PathTracingSceneGenerator } from '../src/index.js';
-import { MeshoptDecoder } from './three/examples/jsm/libs/meshopt_decoder.module.js';
-import { GUI } from './three/examples/jsm/libs/lil-gui.module.min.js';
+import { MeshoptDecoder } from 'https://cdn.skypack.dev/three/examples/jsm/libs/meshopt_decoder.module.js';
+import { GUI } from 'https://cdn.skypack.dev/three/examples/jsm/libs/lil-gui.module.min.js';
 import { AmbientOcclusionMaterial } from '../src/materials/AmbientOcclusionMaterial.js';
-import Stats from './three/examples/jsm/libs/stats.module.js';
-import { MeshBVHUniformStruct } from './three-mesh-bvh';
-import * as MikkTSpace from './three/examples/jsm/libs/mikktspace.module.js';
-import { mergeVertices, computeTangents } from './three/examples/jsm/utils/BufferGeometryUtils.js';
+import Stats from 'https://cdn.skypack.dev/three/examples/jsm/libs/stats.module.js';
+import { MeshBVHUniformStruct } from 'https://cdn.skypack.dev/three-mesh-bvh';
+import * as MikkTSpace from 'https://cdn.skypack.dev/three/examples/jsm/libs/mikktspace.module.js';
+import { mergeVertices, computeTangents } from 'https://cdn.skypack.dev/three/examples/jsm/utils/BufferGeometryUtils.js';
 
 let renderer, controls, camera, scene, stats;
 let fsQuad, target1, target2, materials;
