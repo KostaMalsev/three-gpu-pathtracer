@@ -8,7 +8,7 @@ import {
 	LinearFilter,
 	NoToneMapping,
 } from 'three';
-import { FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
+import { FullScreenQuad } from 'https://cdn.skypack.dev/three/examples/jsm/postprocessing/Pass.js';
 
 const prevColor = new Color();
 export class RenderTarget2DArray extends WebGLArrayRenderTarget {
