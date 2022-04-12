@@ -1,9 +1,9 @@
-import { Matrix4, Color } from 'three';
+import { Matrix4, Color } from 'https://cdn.skypack.dev/three';
 import { MaterialBase } from './MaterialBase.js';
 import {
 	MeshBVHUniformStruct, FloatVertexAttributeTexture, UIntVertexAttributeTexture,
 	shaderStructs, shaderIntersectFunction,
-} from 'three-mesh-bvh';
+} from 'https://cdn.skypack.dev/three-mesh-bvh';
 import { shaderMaterialStructs } from '../shader/shaderStructs.js';
 import { shaderUtils } from '../shader/shaderUtils.js';
 import { MaterialStructArrayUniform } from '../uniforms/MaterialStructArrayUniform.js';
