@@ -1,5 +1,5 @@
-import { BufferAttribute } from 'three';
-import { mergeBufferGeometries, mergeVertices } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
+import { BufferAttribute } from 'https://cdn.skypack.dev/three';
+import { mergeBufferGeometries, mergeVertices } from 'https://cdn.skypack.dev/three/examples/jsm/utils/BufferGeometryUtils.js';
 function getGroupMaterialIndicesAttribute( geometry, materials, allMaterials ) {
 
 	if ( ! Array.isArray( materials ) ) {
