@@ -1,4 +1,4 @@
-import { ShaderMaterial } from 'three';
+import { ShaderMaterial } from 'https://cdn.skypack.dev/three';
 
 export class MaterialBase extends ShaderMaterial {
 
