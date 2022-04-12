@@ -1,4 +1,4 @@
-import { Color, Vector2 } from 'three';
+import { Color, Vector2 } from 'https://cdn.skypack.dev/three';
 export class MaterialStructUniform {
 
 	constructor() {
