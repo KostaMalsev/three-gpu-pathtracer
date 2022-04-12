@@ -1,5 +1,5 @@
-import { RGBAFormat, FloatType, Color, Vector2, WebGLRenderTarget } from 'three';
-import { FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
+import { RGBAFormat, FloatType, Color, Vector2, WebGLRenderTarget } from 'https://cdn.skypack.dev/three';
+import { FullScreenQuad } from 'https://cdn.skypack.dev/three/examples/jsm/postprocessing/Pass.js';
 
 function* renderTask() {
 
